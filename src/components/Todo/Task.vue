@@ -16,7 +16,7 @@
           >
         </v-list-item-content>
         <v-list-item-action>
-          <v-btn icon @click="$store.commit('deleteTask', task.id)">
+          <v-btn icon @click="$store.dispatch('deleteTask', task.id)">
             <v-icon color="primary lighten-1">mdi-delete</v-icon>
           </v-btn>
         </v-list-item-action>

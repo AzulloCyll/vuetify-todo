@@ -9,7 +9,6 @@
 <script>
 export default {
   name: "Todo",
-
   components: {
     "field-add-task": require("@/components/Todo/FieldAddTask.vue").default,
     "list-tasks": require("@/components/Todo/ListTasks.vue").default,
